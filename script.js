@@ -42,7 +42,7 @@ login("chisom ", "ch123")
 
 
 const checknumber = (num) => {
-    if (num % 2 === 0) {
+    if (num/2 === 0) {
         console.log("even number");
     } else {
         console.log("odd number");
